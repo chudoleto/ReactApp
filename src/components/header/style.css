@@ -1,0 +1,83 @@
+.header {
+    /*width: 1920px;*/
+    height: 900px;
+    /*background: url('../../../public/images/Rectangle.png');*/
+}
+
+.nav-menu{
+    margin-top: 40px;
+    margin-left: 952px;
+}
+
+.nav-menu li {
+    cursor: pointer;
+    display: inline;
+    padding-top: 40px;
+    margin-right: 40px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.nav-menu a{
+    /*color: #FFFFFF;*/
+    color: black;
+    text-decoration: none;
+}
+
+hr {
+    margin-top: 40px;
+    opacity: 0.5;
+    color: #A1A1A1;
+}
+
+.title{
+    margin-top: 219px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.title h1{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 64px;
+
+}
+
+.title-btn {
+    background: #4985FF;
+    box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+    border-radius: 30px;
+    width: 200px;
+    height: 45px;
+    padding-top: 13px;
+    text-align: center;
+}
+
+.title-btn a{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+

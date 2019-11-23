@@ -1,7 +1,8 @@
 import React, {Component} from 'react'
-// import 'header.css'
+import './style.css'
 
-class header extends Component{
+
+class Header extends Component{
     render() {
         return (
             <div>
@@ -11,4 +12,4 @@ class header extends Component{
     }
 }
 
-export default header;
+export default Header;
