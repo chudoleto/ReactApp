@@ -1,0 +1,67 @@
+.AppListStandartDevelopment {
+    height: 797px;
+    background: #F6F6F8;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.standart-development {
+    margin: 100px 0 90px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.standart-development-item-1 {
+    margin-left: 405px;
+}
+
+.standart-development-item-1 h3 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 53px;
+
+    color: #323232;
+}
+
+.standart-development-item-1 p {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+
+    color: #999999;
+}
+
+.standart-development-item-1 a {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration-line: underline;
+
+    color: #4985FF;
+}
+
+.standart-development-item-2 {
+    margin-right: 405px;
+}
+
+hr.AppListStandartDevelopment-element {
+    width: 1110px;
+    border: 1px solid #E0E0E0;
+}
+
+.standart-development-our-project{
+    display: flex;
+    justify-content: center;
+}
+
+.standart-development-our-project-item{
+    display: flex;
+    margin-right: 100px;
+}

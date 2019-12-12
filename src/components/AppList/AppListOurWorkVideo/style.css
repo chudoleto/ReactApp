@@ -1,0 +1,137 @@
+.AppListOurWorkVideo{
+    height: 1082px;
+    background: url('/images/Rectangle4.png');
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.AppListOurWorkVideo-element{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.AppListOurWorkVideo-element-info{
+    margin-top: 70px;
+}
+
+.AppListOurWorkVideo-element-info h3{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.AppListOurWorkVideo-element-info p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.AppListOurWorkVideo-element-video{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.AppListOurWorkVideo-element-video-item{
+    margin-top: 50px;
+    width: 970px;
+    height: 430px;
+    background: url('/images/RectangleVideo.png');
+}
+
+hr.AppListOurWorkVideo-element-hr{
+    margin-top: 85px;
+    width: 1110px;
+    border: 1px solid #E0E0E0;
+}
+
+.AppListOurWorkVideo-element-info-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.AppListOurWorkVideo-element-info-link h3{
+    margin-top: 65px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+}
+
+.AppListOurWorkVideo-element-info-link p {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    color: #999999;
+}
+
+.AppListOurWorkVideo-element-info-link input[type="search"] {
+    margin-bottom: 1px;
+    background: #FFFFFF;
+    border: 1px solid #F2F2F2;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+    /*border-radius: 30px;*/
+    border-radius: 30px 0px 0px 30px;
+    width: 299px;
+    height: 45px;
+}
+
+.search {
+    /*width: 600px*/
+}
+
+input[type="search"]::-webkit-input-placeholder {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 21px;
+    padding-left: 50px;
+}
+
+input[type="submit"] {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    outline: none;
+    vertical-align: middle;
+    width: 190px;
+    height: 45px;
+    background: #4985FF;
+    box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+    border-radius: 0px 30px 30px 0px;
+    border: 1px solid #F2F2F2;
+    cursor: pointer;
+}
+
+.AppListOurWorkVideo-element-info-link span{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 21px;
+    text-align: center;
+    color: #999999;
+}

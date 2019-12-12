@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import AppHeader from "./components/AppHeader";
-import AppFooter from "./components/AppFooter";
 import AppList from "./components/AppList";
+import AppFooter from "./components/AppFooter";
 
 const el = (
     <div>
@@ -12,4 +12,4 @@ const el = (
     </div>
 );
 
-ReactDOM.render(el, document.getElementById('root'))
+ReactDOM.render(el, document.getElementById('root'));
