@@ -1,4 +1,4 @@
-.AppListOurProject{
+.our-project{
     height: 776px;
     background: #F6F6F8;
     display: flex;
@@ -7,7 +7,7 @@
     width: 100%;
 }
 
-.AppListOurProject-bl{
+.our-project__info{
     width: 1113px;
     height: 488px;
     display: flex;
@@ -17,7 +17,7 @@
     margin-top: 100px;
 }
 
-.AppListOurProject-bl h3{
+.our-project__info h3{
     font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
@@ -28,7 +28,7 @@
     color: #000000;
 }
 
-.AppListOurProject-bl p {
+.our-project__info p {
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
@@ -39,13 +39,11 @@
 }
 
 
-.AppListOurProject-bl-img{
+.our-project__info__img{
     padding-top: 70px;
     display: flex;
 }
 
-.AppListOurProject-bl-img img{
+.our-project__info__img img{
     margin: 0 20px 0 20px;
 }
-
-

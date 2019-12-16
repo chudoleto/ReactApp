@@ -1,13 +1,13 @@
-.AppListInfoMobileApp {
+.info-mobile-app {
     height: 703px;
     display: flex;
-    justify-content: center;
+    margin-top: 110px;
     flex-direction: column;
     align-items: center;
     width: 100%;
 }
 
-.AppListInfoMobileApp-bl{
+.info-mobile-app__tittle{
     width: 1113px;
     height: 488px;
     display: flex;
@@ -16,7 +16,7 @@
     align-items: center;
 }
 
-.AppListInfoMobileApp h1 {
+.info-mobile-app__tittle h1 {
     font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
@@ -25,7 +25,7 @@
     text-align: center;
 }
 
-.AppListInfoMobileApp p {
+.info-mobile-app__tittle p {
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
@@ -35,7 +35,35 @@
     color: #999999;
 }
 
-.AppListInfoMobileApp-btn {
+.info-mobile-app__tittle__sintez-site {
+    display: flex;
+    margin-bottom: 50px
+}
+
+.info-mobile-app__tittle__sintez-site__item h3 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.info-mobile-app__tittle__sintez-site__item p {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #999999;
+}
+
+.info-mobile-app__tittle__sintez-site__item {
+    display: flex;
+}
+
+
+.info-mobile-app__tittle__btn {
     font-family: Montserrat;
     font-style: normal;
     font-weight: 500;
@@ -51,33 +79,4 @@
     width: 200px;
     height: 35px;
     padding-top: 13px;
-}
-
-.sintez-site {
-    display: flex;
-    margin-bottom: 50px
-}
-
-.sintez-site h3 {
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 22px;
-
-    color: #000000;
-}
-
-.sintez-site p {
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 22px;
-
-    color: #999999;
-}
-
-.sintez-site-item {
-    display: flex;
 }

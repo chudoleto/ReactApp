@@ -1,15 +1,14 @@
 .header {
-    /*width: 1920px;*/
     height: 900px;
     background: url('/images/Rectangle.png');
 }
 
-.nav-menu{
+.header___nav-menu{
     padding-top: 40px;
     margin-left: 952px;
 }
 
-.nav-menu li {
+.header___nav-menu li {
     cursor: pointer;
     display: inline;
     padding-top: 40px;
@@ -21,7 +20,7 @@
     line-height: 20px;
 }
 
-.nav-menu a {
+.header___nav-menu a {
     display: inline-block;
     color:#FFFFFF;
     line-height: 1;
@@ -29,7 +28,7 @@
     cursor: pointer;
     position:relative;
 }
-.nav-menu a:after {
+.header___nav-menu a:after {
     margin-top: 41px;
     background-color: #FFFFFF;
     display: block;
@@ -45,26 +44,27 @@
     -moz-transform:translateX(-50%);
     transform:translateX(-50%);
 }
-.nav-menu a:hover:after,
-.nav-menu a:focus:after {
+.header___nav-menu a:hover:after,
+.header___nav-menu a:focus:after {
     width: 150%;
 }
 
-hr.AppHeader-element {
+hr.header__element-hr {
     margin-top: 40px;
     opacity: 0.5;
     color: #A1A1A1;
 }
 
-.title{
+.header__title{
     margin-top: 219px;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 }
 
-.title p{
+.header__title p{
     font-family: Montserrat;
     font-style: normal;
     font-weight: 500;
@@ -74,7 +74,7 @@ hr.AppHeader-element {
     color: #FFFFFF;
 }
 
-.title h1{
+.header__title h1{
     font-family: Montserrat;
     font-style: normal;
     font-weight: 800;
@@ -84,7 +84,7 @@ hr.AppHeader-element {
 
 }
 
-.title-btn {
+.header__title-btn {
     font-family: Montserrat;
     font-style: normal;
     font-weight: 500;

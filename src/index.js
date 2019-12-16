@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import AppHeader from "./components/AppHeader";
-import AppList from "./components/AppList";
-import AppFooter from "./components/AppFooter";
+import AppHeader from "./components/app-header";
+import AppList from "./components/app-list";
+import AppFooter from "./components/app-footer";
 
 const el = (
     <div>

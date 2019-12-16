@@ -1,24 +1,22 @@
-.AppListWorkSpecialize {
+.work-specialize {
+    font-family: Montserrat;
     height: 972px;
     display: flex;
-    /*justify-content: center;*/
     flex-direction: column;
     align-items: center;
     width: 100%;
-    /*background: linear-gradient(90deg, #504DC2 20.44%, #5F12D0 80.91%), #C4C4C4;*/
     background: linear-gradient(180deg,  #504DC2 20.44%, #5F12D0 50%, transparent 50%), #E5E5E5;;
 }
 
-.AppListWorkSpecialize-bl {
+.work-specialize__container {
     width: 1113px;
-    /*height: 488px;*/
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
 }
 
-.AppListWorkSpecialize-bl-1 {
+.work-specialize__container__title {
     width: 1113px;
     display: flex;
     align-items: center;
@@ -26,22 +24,15 @@
     margin: 100px 0 50px 0;
 }
 
-.AppListWorkSpecialize-bl-1 h3 {
-    font-family: Montserrat;
+.work-specialize__container__title h3 {
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
     line-height: 53px;
-
     color: #FFFFFF;
 }
 
-.AppListWorkSpecialize-item-service{
-    margin-left: auto;
-}
-
-.AppListWorkSpecialize-btn{
-    font-family: Montserrat;
+.work-specialize__container__title__btn{
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -59,29 +50,27 @@
     margin-left: auto;
 }
 
-.AppListWorkSpecialize-info{
+.work-specialize__container__info{
     display: flex;
 
 }
 
-.AppListWorkSpecialize-info div{
+.work-specialize__container__info div{
     margin: 0 20px 0 20px;
 }
 
-.AppListWorkSpecialize-info h3{
-    font-family: Montserrat;
+.work-specialize__container__info h3{
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
     line-height: 22px;
 }
 
-.AppListWorkSpecialize-info span{
+.work-specialize__container__info span{
     color: #4985FF;
 }
 
-.AppListWorkSpecialize-info p{
-    font-family: Montserrat;
+.work-specialize__container__info p{
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -90,8 +79,7 @@
     color: #999999;
 }
 
-.AppListWorkSpecialize-info a{
-    font-family: Montserrat;
+.work-specialize__container__info a{
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
