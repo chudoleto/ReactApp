@@ -1,0 +1,134 @@
+.video-our-work{
+    height: 1082px;
+    background: url('/images/Rectangle4.png');
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.video-our-work__title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.video-our-work__title__info{
+    margin-top: 70px;
+}
+
+.video-our-work__title__info h3{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.video-our-work__title__info p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.video-our-work__video{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.video-our-work__video__item{
+    margin-top: 50px;
+    width: 970px;
+    height: 430px;
+    background: url('/images/RectangleVideo.png');
+}
+
+hr.video-our-work-element-hr{
+    margin-top: 85px;
+    width: 1110px;
+    border: 1px solid #E0E0E0;
+}
+
+.video-our-work__info-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.video-our-work__info-link h3{
+    margin-top: 65px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+}
+
+.video-our-work__info-link p {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    color: #999999;
+}
+
+.video-our-work__info-link input[type="search"] {
+    margin-bottom: 1px;
+    background: #FFFFFF;
+    border: 1px solid #F2F2F2;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+    /*border-radius: 30px;*/
+    border-radius: 30px 0px 0px 30px;
+    width: 299px;
+    height: 45px;
+}
+
+input[type="search"]::-webkit-input-placeholder {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 21px;
+    padding-left: 50px;
+}
+
+input[type="submit"] {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    outline: none;
+    vertical-align: middle;
+    width: 190px;
+    height: 45px;
+    background: #4985FF;
+    box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+    border-radius: 0px 30px 30px 0px;
+    border: 1px solid #F2F2F2;
+    cursor: pointer;
+    margin-bottom: 1px;
+}
+
+.video-our-work__info-link span{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 21px;
+    text-align: center;
+    color: #999999;
+}

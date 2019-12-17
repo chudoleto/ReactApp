@@ -1,0 +1,103 @@
+.header {
+    height: 900px;
+    background: url('/images/Rectangle.png');
+}
+
+.header-nav-menu{
+    padding-top: 40px;
+    margin-left: 952px;
+}
+
+.header-nav-menu-item {
+    cursor: pointer;
+    display: inline;
+    padding-top: 40px;
+    margin-right: 40px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.header-nav-menu a {
+    display: inline-block;
+    color:#FFFFFF;
+    line-height: 1;
+    text-decoration:none;
+    cursor: pointer;
+    position:relative;
+}
+.header-nav-menu a:after {
+    margin-top: 41px;
+    background-color: #FFFFFF;
+    display: block;
+    content: "";
+    height: 2px;
+    width: 0%;
+    left:50%;
+    position:absolute;
+    -webkit-transition: width .3s ease-in-out;
+    -moz--transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+    -webkit-transform:translateX(-50%);
+    -moz-transform:translateX(-50%);
+    transform:translateX(-50%);
+}
+.header-nav-menu a:hover:after,
+.header-nav-menu a:focus:after {
+    width: 150%;
+}
+
+.header-element-hr {
+    margin-top: 40px;
+    opacity: 0.5;
+    color: #A1A1A1;
+}
+
+.header__title{
+    margin-top: 219px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.header__title-item {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.header__title-item-info {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 64px;
+    color: #FFFFFF;
+
+}
+
+.header__title-btn {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #FFFFFF;
+    background: #4985FF;
+    box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+    border-radius: 30px;
+    width: 200px;
+    height: 35px;
+    padding-top: 13px;
+    text-align: center;
+}
