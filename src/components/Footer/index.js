@@ -1,44 +1,29 @@
 import React from "react";
 import "./style.scss"
 
-const arr = ['Главная','Наши проекты','Наши услуги','Контакты']
-const listItems = arr.map((arrItem)=>
-    <li>{arrItem}</li>
-);
-
 const AppFooter = () => {
+    const post = [
+        {id: 1, title: "Контактная информация",  content1: "test@test.ru", content2: "+8 777 555 66 99", content3: "Москва, Бульвар Ленина 33"},
+        {id: 2, title: "Основные ссылки", content1: "Главная", content2: "Наши проекты", content3: "Наши услуги", content4: "Контакты"},
+        {id: 3, title: "Наши проекты", content1: "РосНано", content2: "Сколково", content3: "Проект “Восток” ", content4: "ТЭЦ Калининграда"},
+        {id: 4, title: "Социальные сети", content1: "VK.com", content2: "Instagram", content3: "Facebook", content4: "Twitter"},
+    ];
+
+    const content = post.map((post) =>
+        <ul className='footer__content-title' key = {post.id}>
+            <li className="footer__content-title-item">{post.title}</li>
+            <li className="footer__content-title-item-info">{post.content1}</li>
+            <li className="footer__content-title-item-info">{post.content2}</li>
+            <li className="footer__content-title-item-info">{post.content3}</li>
+            <li className="footer__content-title-item-info">{post.content4}</li>
+        </ul>
+    );
     return (
         <div>
             <footer>
                 <div className="footer">
                     <div className="footer__content">
-                        <ul className='footer__content-title'>
-                            <li className="footer__content-title-item">Контактная информация</li>
-                            <li className="footer__content-title-item-info"><img src="/images/icon/envelope.png" alt="картинка"></img> test@test.ru</li>
-                            <li className="footer__content-title-item-info"><img src="/images/icon/call.png" alt="картинка"></img> +8 777 555 66 99</li>
-                            <li className="footer__content-title-item-info"><img src="/images/icon/placeholder.png" alt="картинка"></img> Москва, Бульвар Ленина 33</li>
-                        </ul>
-                        <ul className='footer__content-title'>
-                            <li className="footer__content-title-item">Основные ссылки</li>
-                            <li className="footer__content-title-item-info"><img src="/images/icon/right-arrow.png" alt="картинка"></img> Главная</li>
-                            <li className="footer__content-title-item-info"><img src="/images/icon/right-arrow.png" alt="картинка"></img> Наши проекты</li>
-                            <li className="footer__content-title-item-info"><img src="/images/icon/right-arrow.png" alt="картинка"></img> Наши услуги</li>
-                            <li className="footer__content-title-item-info"><img src="/images/icon/right-arrow.png" alt="картинка"></img> Контакты</li>
-                        </ul>
-                        <ul className='footer__content-title'>
-                            <li className="footer__content-title-item">Наши проекты</li>
-                            <li className="footer__content-title-item-info"><img src="/images/icon/right-arrow.png" alt="картинка"></img> РосНано</li>
-                            <li className="footer__content-title-item-info"><img src="/images/icon/right-arrow.png" alt="картинка"></img> Сколково</li>
-                            <li className="footer__content-title-item-info"><img src="/images/icon/right-arrow.png" alt="картинка"></img> Проект “Восток”</li>
-                            <li className="footer__content-title-item-info"><img src="/images/icon/right-arrow.png" alt="картинка"></img> ТЭЦ Калининграда</li>
-                        </ul>
-                        <ul className='footer__content-title'>
-                            <li className="footer__content-title-item">Социальные сети</li>
-                            <li className="footer__content-title-item-info"><img src="/images/icon/right-arrow.png" alt="картинка"></img> VK.com</li>
-                            <li className="footer__content-title-item-info"><img src="/images/icon/right-arrow.png" alt="картинка"></img> Instagram</li>
-                            <li className="footer__content-title-item-info"><img src="/images/icon/right-arrow.png" alt="картинка"></img> Facebook</li>
-                            <li className="footer__content-title-item-info"><img src="/images/icon/right-arrow.png" alt="картинка"></img> Twitter</li>
-                        </ul>
+                        {content}
                     </div>
                     <div>
                         <hr className='footer__element-hr'></hr>
